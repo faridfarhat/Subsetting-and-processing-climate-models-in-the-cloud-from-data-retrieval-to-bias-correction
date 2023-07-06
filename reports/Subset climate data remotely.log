@@ -25,23 +25,15 @@ import cartopy.crs as ccrs
 from cartopy import feature as cf
 import requests
 import xclim as xc
-import hvplot.xarray
-xr.set_options(display_style='html')
-import cdo
-%matplotlib inline
-%config InlineBackend.figure_format = 'retina' 
-
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-[0;32m/var/folders/2j/5_h1wvs16tz1gflz83631hn40000gn/T/ipykernel_2430/340643946.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/var/folders/2j/5_h1wvs16tz1gflz83631hn40000gn/T/ipykernel_2444/3519386762.py[0m in [0;36m<module>[0;34m[0m
 [1;32m      6[0m [0;32mfrom[0m [0mcartopy[0m [0;32mimport[0m [0mfeature[0m [0;32mas[0m [0mcf[0m[0;34m[0m[0;34m[0m[0m
 [1;32m      7[0m [0;32mimport[0m [0mrequests[0m[0;34m[0m[0;34m[0m[0m
 [0;32m----> 8[0;31m [0;32mimport[0m [0mxclim[0m [0;32mas[0m [0mxc[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      9[0m [0;32mimport[0m [0mhvplot[0m[0;34m.[0m[0mxarray[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     10[0m [0mxr[0m[0;34m.[0m[0mset_options[0m[0;34m([0m[0mdisplay_style[0m[0;34m=[0m[0;34m'html'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-
+[0m
 [0;31mModuleNotFoundError[0m: No module named 'xclim'
 ModuleNotFoundError: No module named 'xclim'
 
