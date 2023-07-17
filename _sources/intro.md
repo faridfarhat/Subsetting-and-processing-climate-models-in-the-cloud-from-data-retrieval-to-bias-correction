@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# Welcome to my Jupyter Book
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This is a technical book which blend python syntax and text to show the reader how to access climate models remotely, make ensemble of multiple models, apply bias correction on a GCM/RCM or their ensemble. 
 
-Check out the content pages bundled with this sample book to see more.
+The first note book below shows how to access and process data from netCDF file, which is pretty much basic stuff. The second note book demonstrates much advanced syntax to do computations and bias correction. 
 
 ```{tableofcontents}
 ```

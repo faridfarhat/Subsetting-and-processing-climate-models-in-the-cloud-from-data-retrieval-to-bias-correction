@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Climate data bias correction in the cloud environment" href="bias%20correction.html" />
+    <link rel="prev" title="Accessing and processing climate data remotely" href="Data%20downloading%20ESGF.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -108,29 +108,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+                    Welcome to my Jupyter Book
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Markdown Files
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="Data%20downloading%20ESGF.html">
    Accessing and processing climate data remotely
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Gridded%20satellite%20data%20processing%20guide.html">
-   Satellite data processing guide
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="bias%20correction.html">
-   Climate data bias correction in the cloud environment
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -197,7 +182,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/faridfarhat/rcm4/master?urlpath=tree/docs/bias correction rcm.ipynb"
+        <a href="https://mybinder.org/v2/gh/faridfarhat/Subsetting-and-processing-climate-models-in-the-cloud-from-data-retrieval-to-bias-correction/master?urlpath=tree/docs/bias correction rcm.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -231,6 +216,51 @@ title="Fullscreen mode"
   </span>
 
 </button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/faridfarhat/Subsetting-and-processing-climate-models-in-the-cloud-from-data-retrieval-to-bias-correction/settings/"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/faridfarhat/Subsetting-and-processing-climate-models-in-the-cloud-from-data-retrieval-to-bias-correction/settings//issues/new?title=Issue%20on%20page%20%2Fbias correction rcm.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
 
 <div class="menu-dropdown menu-dropdown-download-buttons">
   <button class="headerbtn menu-dropdown__trigger"
@@ -625,8 +655,8 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>syntax error, unexpected $end, expecting SCAN_ATTR or SCAN_DATASET or SCAN_ERROR
-context: ^
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>syntax error, unexpected WORD_WORD, expecting SCAN_ATTR or SCAN_DATASET or SCAN_ERROR
+context: &lt;!DOCTYPE^ HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;503 Service Unavailable&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;Service Unavailable&lt;/h1&gt;&lt;p&gt;The server is temporarily unable to service yourrequest due to maintenance downtime or capacityproblems. Please try again later.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </pre></div>
 </div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
@@ -748,7 +778,7 @@ context: ^
 
 <span class="nn">File src/netCDF4/_netCDF4.pyx:2026,</span> in <span class="ni">netCDF4._netCDF4._ensure_nc_success</span><span class="nt">()</span>
 
-<span class="ne">OSError</span>: [Errno -90] NetCDF: file not found: b&#39;http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc&#39;
+<span class="ne">OSError</span>: [Errno -70] NetCDF: DAP server error: b&#39;http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc&#39;
 </pre></div>
 </div>
 </div>
@@ -1013,7 +1043,7 @@ context: ^
 </section>
 <section id="applying-bias-correction-algorithms-on-rcm-ensemble">
 <h2>Applying bias correction algorithms on RCM ensemble<a class="headerlink" href="#applying-bias-correction-algorithms-on-rcm-ensemble" title="Permalink to this headline">#</a></h2>
-<p>Now observed and climate data is ready for bias correction (BC) <span id="id1">[<a class="reference internal" href="markdown.html#id8" title="Michel Déqué. Frequency of precipitation and temperature extremes over france in an anthropogenic scenario: model results and statistical correction according to observed values. Global and Planetary Change, 57(1):16-26, 2007. Extreme Climatic Events. URL: https://www.sciencedirect.com/science/article/pii/S0921818106002748, doi:https://doi.org/10.1016/j.gloplacha.2006.11.030.">Déqué, 2007</a>]</span>. Here, 5 BC methods used, empirical quantile mapping (QM), linear scaling (LS), local intensity scaling (LOCI), deterending quantile mapping (DQ), quantile delta mapping (QDM). As following, each of this method are trained on observation and climate data (RCM ensemble) and then applied to adjust data.</p>
+<p>Now observed and climate data is ready for bias correction (BC) <span id="id1">[<a class="reference internal" href="#id8" title="Michel Déqué. Frequency of precipitation and temperature extremes over france in an anthropogenic scenario: model results and statistical correction according to observed values. Global and Planetary Change, 57(1):16-26, 2007. Extreme Climatic Events. URL: https://www.sciencedirect.com/science/article/pii/S0921818106002748, doi:https://doi.org/10.1016/j.gloplacha.2006.11.030.">Déqué, 2007</a>]</span>. Here, 5 BC methods used, empirical quantile mapping (QM), linear scaling (LS), local intensity scaling (LOCI), deterending quantile mapping (DQ), quantile delta mapping (QDM). As following, each of this method are trained on observation and climate data (RCM ensemble) and then applied to adjust data.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#quantile mapping bias correction</span>
@@ -1417,9 +1447,6 @@ http://esgf-data.dkrz.de/esg-search/search/?variable=pr&amp;source_id=HadGEM3-GC
 <dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
 <dd><p>Michel Déqué. Frequency of precipitation and temperature extremes over france in an anthropogenic scenario: model results and statistical correction according to observed values. <em>Global and Planetary Change</em>, 57(1):16–26, 2007. Extreme Climatic Events. URL: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0921818106002748">https://www.sciencedirect.com/science/article/pii/S0921818106002748</a>, <a class="reference external" href="https://doi.org/https://doi.org/10.1016/j.gloplacha.2006.11.030">doi:https://doi.org/10.1016/j.gloplacha.2006.11.030</a>.</p>
 </dd>
-<dt class="label" id="id3"><span class="brackets">2</span></dt>
-<dd><p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
-</dd>
 </dl>
 </div>
 </section>
@@ -1452,11 +1479,11 @@ http://esgf-data.dkrz.de/esg-search/search/?variable=pr&amp;source_id=HadGEM3-GC
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="bias%20correction.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="Data%20downloading%20ESGF.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Climate data bias correction in the cloud environment</p>
+            <p class="prev-next-title">Accessing and processing climate data remotely</p>
         </div>
     </a>
 </div>
@@ -1466,7 +1493,7 @@ http://esgf-data.dkrz.de/esg-search/search/?variable=pr&amp;source_id=HadGEM3-GC
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By Sameer Sarwary<br/>
+    By Farid Farhat<br/>
   
       &copy; Copyright 2022.<br/>
 </p>

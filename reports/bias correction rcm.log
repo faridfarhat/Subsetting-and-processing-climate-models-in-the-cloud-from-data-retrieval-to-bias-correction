@@ -141,6 +141,6 @@ File [0;32msrc/netCDF4/_netCDF4.pyx:2463[0m, in [0;36mnetCDF4._netCDF4.Datase
 
 File [0;32msrc/netCDF4/_netCDF4.pyx:2026[0m, in [0;36mnetCDF4._netCDF4._ensure_nc_success[0;34m()[0m
 
-[0;31mOSError[0m: [Errno -90] NetCDF: file not found: b'http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc'
-OSError: [Errno -90] NetCDF: file not found: b'http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc'
+[0;31mOSError[0m: [Errno -70] NetCDF: DAP server error: b'http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc'
+OSError: [Errno -70] NetCDF: DAP server error: b'http://esgf1.dkrz.de/thredds/dodsC/cordex/cordex/output/SEA-22/GERICS/MOHC-HadGEM2-ES/historical/r1i1p1/GERICS-REMO2015/v1/day/pr/v20191015/pr_SEA-22_MOHC-HadGEM2-ES_historical_r1i1p1_GERICS-REMO2015_v1_day_19700101-19701230.nc'
 
